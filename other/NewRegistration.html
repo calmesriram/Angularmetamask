@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8" >
+        <meta name="viewport" content ="width =device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>    
+        <link rel="stylesheet" href="./app.css">
+        <script src="./app.js"></script>
+    </head>
+        <body>
+                <div class="container-fluid">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                             </li>
+                                
+                        <!-- <li class="nav-item">
+                              <a class="nav-link" href="#">Dashboard</a>
+                        </li> -->
+                                
+                            </ul>
+                   </div>
+            <div class="container padding">
+                
+                <div class="form-group">
+                 <h5 style="color:blue">New Registration</h5>
+                <input type="text" name ="ivid" class="form-control textbox" placeholder="InterviewId" id="ivid"><br>
+                        <input type="text" name="name" class="form-control textbox" placeholder="Name" id="name"><br>
+                        <button type="button" class="btn btn-success" id="reg" onclick="reg();">Register</button>
+                       
+                        <button type="button" class="btn btn-success" onclick="load();">load</button>
+                </div>
+                 <div class="loader" id="ld" style="display:none;"></div>
+                </div>
+               <div class="row"> <center>
+                    <div class="col-sm-9 tablewrapper">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                             <th>InterivewId</th>
+                            <th>Name</th> 
+                            </tr>
+                            </thead>
+                            <tbody id="tdload">
+                                </tbody>
+                        </table>
+                        </div>
+                    </div>
+                    </center>
+            </body>
+    </html>

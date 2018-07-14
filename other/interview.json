@@ -1,0 +1,52 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "ivid",
+				"type": "uint256"
+			},
+			{
+				"name": "name",
+				"type": "string"
+			}
+		],
+		"name": "Regonce",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "map",
+		"outputs": [
+			{
+				"name": "ivid",
+				"type": "uint256"
+			},
+			{
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"name": "time",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
